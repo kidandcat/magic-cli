@@ -1,5 +1,5 @@
 {
-  "name": "magic",
+  "name": "magic-react",
   "version": "0.0.1",
   "description": "ParcelJS + TypeScript + React + MobX",
   "main": "index.js",
