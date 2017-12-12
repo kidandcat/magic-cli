@@ -1,0 +1,16 @@
+{
+  "name": "magic",
+  "version": "0.0.1",
+  "description": "ParcelJS + TypeScript + React + MobX",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --p tsconfig.json"
+  },
+  "author": "Jairo Caro-Accino Viciana",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^8.0.58",
+    "inquirer": "^4.0.1"
+  },
+  "bin": "./bin/index.js"
+}
