@@ -1,4 +1,4 @@
-import { action, effect } from "src/constants";
+import { action, effect } from "./constants";
 
 const { execSync } = require("child_process");
 const fs = require("fs");

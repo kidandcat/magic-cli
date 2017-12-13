@@ -1,13 +1,13 @@
 #!/usr/bin/env node
 
-import { Qlist, Qinput } from "src/questions";
-import { generables } from "src/constants";
+import { Qlist, Qinput } from "./questions";
+import { generables } from "./constants";
 import {
   deleteFolderRecursive,
   generateApp,
   generateAction,
   generateEffect
-} from "src/helpers";
+} from "./helpers";
 
 const cmd = require("inquirer");
 

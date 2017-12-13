@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const questions_1 = require("src/questions");
-const constants_1 = require("src/constants");
-const helpers_1 = require("src/helpers");
+const questions_1 = require("./questions");
+const constants_1 = require("./constants");
+const helpers_1 = require("./helpers");
 const cmd = require("inquirer");
 cmd
     .prompt(questions_1.Qlist({
